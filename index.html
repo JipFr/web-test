@@ -36,6 +36,9 @@
 		</div>
 	</body>
 	<script>
+		window.onerror = function(e) {
+			alert(e);
+		}
 		var x = document.querySelector('.flexbg');
 		var y = x.innerHTML;
 		for(let i = 5; i > 0; i--) {
