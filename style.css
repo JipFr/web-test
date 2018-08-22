@@ -16,7 +16,7 @@ h1 {
 }
 .overflow {
 	width: calc(100%);
-	display: flex;
+	display: flexbox;
 	overflow-x: scroll;
 	-webkit-overflow-scrolling: touch;
 }
@@ -57,7 +57,7 @@ h1 {
 	margin-right: 10px;
 }
 .itemBRight {
-	display: flex; justify-content: center;
+	display: flexbox; justify-content: center;
 }
 
 .sm {
